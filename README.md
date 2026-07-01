@@ -1,184 +1,121 @@
-# 🚀 Task 3 – Image Classification Model Deployment using FastAPI & Docker
+# 🚀 AI & Machine Learning Internship Projects | Alfido Tech
 
-## 📌 Overview
+Welcome to my AI & Machine Learning Internship repository.
 
-This project was completed as **Task 3** of my **AI & Machine Learning Internship at Alfido Tech**.
-
-The objective of this task was to deploy the trained **ResNet18 Image Classification Model** as a REST API using **FastAPI** and containerize the application using **Docker**.
-
-The API accepts an uploaded image, preprocesses it, performs inference using the trained deep learning model, and returns the predicted class in JSON format.
+This repository contains all the projects completed during my internship at **Alfido Tech**, covering Machine Learning, Deep Learning, and Model Deployment.
 
 ---
 
-## 🎯 Objectives
+# 📌 Internship Tasks
 
-* Deploy a trained PyTorch model.
-* Build REST APIs using FastAPI.
-* Upload images through API.
-* Perform real-time image classification.
-* Return predictions in JSON format.
-* Containerize the application using Docker.
+## ✅ Task 1 – Machine Learning Classification
 
----
+Customer Churn Prediction using Machine Learning.
 
-## 📂 Project Features
+### Highlights
+- Data Preprocessing
+- Feature Engineering
+- Logistic Regression
+- Random Forest
+- Model Evaluation
+- Cross Validation
 
-* Image Upload API
-* Real-Time Prediction
-* FastAPI REST API
-* Interactive Swagger Documentation
-* Docker Support
-* JSON Response
-* PyTorch Model Deployment
+**Result**
+- Accuracy: **81.62%**
+- ROC-AUC: **0.7403**
 
 ---
 
-## 🛠️ Technologies Used
+## ✅ Task 2 – Deep Learning Image Classification
 
-* Python
-* FastAPI
-* PyTorch
-* TorchVision
-* Pillow (PIL)
-* Uvicorn
-* Docker
+Image Classification using Transfer Learning with ResNet18.
 
----
+### Highlights
+- CIFAR-10 Dataset
+- PyTorch
+- ResNet18
+- Transfer Learning
+- Data Augmentation
 
-## ⚙️ Project Workflow
-
-1. Load Trained ResNet18 Model
-2. Start FastAPI Server
-3. Upload Image
-4. Image Preprocessing
-5. Model Inference
-6. Return Prediction
-7. Docker Container Deployment
+**Result**
+- Test Accuracy: **75.50%**
 
 ---
 
-## 🧠 Deep Learning Model
+## ✅ Task 3 – Model Deployment
 
-* Model: ResNet18
-* Framework: PyTorch
-* Dataset: CIFAR-10
-* Number of Classes: 10
+Deployment of the trained Image Classification model using FastAPI and Docker.
 
-Classes:
+### Highlights
 
-* Airplane
-* Automobile
-* Bird
-* Cat
-* Deer
-* Dog
-* Frog
-* Horse
-* Ship
-* Truck
+- FastAPI REST API
+- Image Upload
+- Real-Time Prediction
+- Swagger UI
+- Docker Deployment
 
 ---
 
-## 📁 Project Structure
+# 🛠️ Technologies Used
 
-```text
-Task3_Model_Deployment/
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- PyTorch
+- TorchVision
+- FastAPI
+- Docker
+- Jupyter Notebook
+- VS Code
+
+---
+
+# 📂 Repository Structure
+
+```
+Alfido-Tech-Internship
 │
-├── app.py
-├── Dockerfile
-├── requirements.txt
-├── models/
-│   └── cifar10_resnet18.pth
+├── Task1_ML_Classification
+│
+├── Task2_Deep_Learning
+│
+├── Task3_Model_Deployment
+│
 └── README.md
 ```
 
 ---
 
-## ▶️ Run Locally
+# 🎯 Skills Gained
 
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Start the API server:
-
-```bash
-uvicorn app:app --reload
-```
-
-Open Swagger UI:
-
-```text
-http://127.0.0.1:8000/docs
-```
+- Machine Learning
+- Deep Learning
+- Computer Vision
+- Transfer Learning
+- Model Evaluation
+- FastAPI
+- REST API Development
+- Docker Containerization
+- Model Deployment
 
 ---
 
-## 🐳 Docker
-
-Build Docker Image:
-
-```bash
-docker build -t image-classification-api .
-```
-
-Run Docker Container:
-
-```bash
-docker run -p 8000:8000 image-classification-api
-```
-
----
-
-## 📌 API Endpoint
-
-### POST `/predict`
-
-Upload an image and receive the predicted class.
-
-### Example Response
-
-```json
-{
-  "filename": "image.png",
-  "prediction": "ship",
-  "status": "Success"
-}
-```
-
----
-
-## 📚 Learning Outcomes
-
-Through this project, I gained practical experience in:
-
-* Model Deployment
-* REST API Development
-* FastAPI
-* Docker Containerization
-* Image Processing
-* Production-ready AI Applications
-
----
-
-## 🚀 Future Improvements
-
-* Deploy on Render or Railway
-* Add confidence score
-* Support batch predictions
-* Improve UI with Streamlit or React
-* Deploy on cloud platforms
-
----
-
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Amit**
 
 B.Tech (Artificial Intelligence)
 
-GitHub: https://github.com/amit86852005-stack
+📧 Passionate about AI, Machine Learning, Deep Learning, and Software Development.
 
-LinkedIn: https://www.linkedin.com/in/amit-aa5086295/
+GitHub:
+https://github.com/amit86852005-stack
+
+LinkedIn:
+https://www.linkedin.com/in/amit-aa5086295/
+
+---
+
+⭐ If you found this repository useful, consider giving it a star.
